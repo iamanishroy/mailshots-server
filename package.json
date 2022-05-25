@@ -1,0 +1,26 @@
+{
+  "name": "mailshots-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anish Roy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.2.0",
+    "googleapis": "^100.0.0",
+    "is-valid-hostname": "^1.0.2",
+    "nodemailer": "^6.7.5",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}
